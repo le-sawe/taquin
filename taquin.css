@@ -1,0 +1,44 @@
+.square {
+    width: 40px;
+    height: 40px;
+    margin: 2px;
+    background-color: #DDDDDD;
+    color: black;
+    border:1px solid black;
+    font-weight: bold;
+}
+.vide_square {
+    width: 40px;
+    height: 40px;
+    margin: 2px;
+    background-color: #0000FF;
+    color: transparent;
+    border:1px solid #0000FF;
+}
+.head{
+    text-align: center;
+    background-color: #FF0000;
+    color:white;
+    height: 20px;
+}
+.buttom{
+    text-align: center;
+    background-color: #FF0000;
+    color:white;
+    height: 20px;
+}
+.board{
+    display:flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+}
+.win{
+    background-color: #0000FF;
+}
+.win_button{
+    height: 100%;
+    width: 100%;
+    background-color:transparent;
+    border:0;
+    color:white;
+}
